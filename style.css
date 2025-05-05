@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: #3b4664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.calculator-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+    height: fit-content;
+}
+
+.calc-header p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+#calc-input {
+    height: 120px;
+    width: 100%;
+    border-radius: 12px;
+    background: #181f32;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.calc-main-wrapper {
+    background: #252D44;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.calc-main {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calc-sm-btn,
+.operator {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    border-radius: 12px;
+    border: none;
+    margin: 10px;
+    color: #3B4664;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#reset {
+    width: 45%;
+    height: 60px;
+    background: #647299;
+    font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#calculate {
+    width: 45%;
+    height: 60px;
+    background: #D13F30;
+    font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+}
