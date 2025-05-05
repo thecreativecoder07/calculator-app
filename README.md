@@ -13,9 +13,10 @@ FEATURES
 
 PROJECT STRUCTURE
 
-- index.html      -> Main HTML file
-- style.css       -> Styling for the calculator
-- script.js       -> JavaScript logic for the calculator
+├── index.html      # Main HTML file
+├── style.css       # Styling for the calculator
+└── script.js       # JavaScript logic for the calculator
+
 
 CODE OVERVIEW
 
